@@ -5,7 +5,7 @@ export default function App() {
     <View style={styles.frameContainer}>
         <View>
             <Text style={styles.bigText}>Hello , Devs</Text>
-            <Text>14 tasks today</Text>
+            <Text>11 tasks today</Text>
         </View>
         <View style={styles.imgStyles}>
             <Image source={require("../assets/person.png")}/>

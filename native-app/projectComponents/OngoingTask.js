@@ -2,27 +2,24 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 const tasks = [
-  { key: 1, name: 'Mobile App Development' },
-  { key: 2, name: 'Web Development' },
-  { key: 3, name: 'Pushups' },
-  { key: 4, name: 'Grocery Shopping' },
-  { key: 5, name: 'Read a Book' },
-  { key: 6, name: 'Clean the House' },
-  { key: 7, name: 'Cook Dinner' },
-  { key: 8, name: 'Laundry' },
-  { key: 9, name: 'Water the Plants' },
-  { key: 10, name: 'Yoga Session' },
-  { key: 11, name: 'Email Correspondence' },
-  { key: 12, name: 'Plan a Trip' },
-  { key: 13, name: 'Budget Review' },
-  { key: 14, name: 'Workout Routine' },
-  { key: 15, name: 'Write a Blog Post' },
+  { key: 1, name: 'Take A Shower' },
+  { key: 2, name: 'Make Breakfast' },
+  { key: 3, name: 'Head To Gym' },
+  { key: 4, name: 'Upload Due YouTube Video' },
+  { key: 5, name: 'Make Smoothie' },
+  { key: 6, name: 'Review Code' },
+  { key: 7, name: 'Watch Game Of Thrones' },
+  { key: 8, name: 'Have Lunch And Make Dinner' },
+  { key: 9, name: 'Watch Game Of Thrones' },
+  { key: 10, name: 'Review Code Again' },
+  { key: 11, name: 'Have Dinner' }
+
 ];
 
 export default function CategoryList() {
     return (
         <View style={styles.container}>
-            <Text style={styles.biggerText}>Ongoing Tasks</Text>
+            <Text style={styles.biggerText}>Must Do</Text>
             <View style={styles.listContainer}>
                 {tasks.map(task => (
                     <View style={styles.itemTaskContainer} key={task.key}>

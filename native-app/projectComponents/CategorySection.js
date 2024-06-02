@@ -2,20 +2,17 @@ import { View, Text, StyleSheet, Image, FlatList } from "react-native";
 
 const categories = [
     { key: 1, name: "Exercise" },
-    { key: 2, name: "Study" },
-    { key: 3, name: "Code" },
-    { key: 4, name: "Meditate" },
-    { key: 5, name: "Exercise" },
-    { key: 6, name: "Study" },
-    { key: 7, name: "Code" },
-    { key: 8, name: "Meditate" }
+    { key: 2, name: "Diet" },
+    { key: 3, name: "Programmimg" },
+    { key: 4, name: "Hobby" }
+   
 ];
 
 const renderCategories = ({ item }) => {
     return (
         <View style={styles.itemContainer}>
             <Text style={styles.bigText}>{item.name}</Text>
-            <Text>12 Tasks</Text>
+            <Text>11 Tasks In Total For Today</Text>
             <View style={styles.img}>
                 <Image source={require("../assets/img1.png")} style={styles.imgStyle} resizeMode="contain" />
             </View>
