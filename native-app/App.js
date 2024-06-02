@@ -1,13 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import SearchBar from './projectComponents/SearchBar';
+import Frame1 from './projectComponents/Frame1';
+import OngoingTask from './projectComponents/OngoingTask';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Hello Annoying React Native</Text>
-      <SearchBar />
+    <ScrollView>
+      <View style={styles.container}>
+        <Text>Hello Annoying React Native</Text>
+        <Frame1 />
+        <SearchBar />
+        <OngoingTask />
     </View>
+    </ScrollView>
+    
   );
 }
 
