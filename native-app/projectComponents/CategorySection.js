@@ -4,7 +4,11 @@ const categories = [
     { key: 1, name: "Exercise" },
     { key: 2, name: "Diet" },
     { key: 3, name: "Programmimg" },
-    { key: 4, name: "Hobby" }
+    { key: 4, name: "Hobby" },
+    { key: 5, name: "Reading" },
+    { key: 6, name: "Dog Health" },
+    { key: 7, name: "Reviewing" },
+    { key: 8, name: "Series" }
    
 ];
 

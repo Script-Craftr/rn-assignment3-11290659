@@ -12,8 +12,11 @@ const tasks = [
   { key: 8, name: 'Have Lunch And Make Dinner' },
   { key: 9, name: 'Watch Game Of Thrones' },
   { key: 10, name: 'Review Code Again' },
-  { key: 11, name: 'Have Dinner' }
-
+  { key: 11, name: 'Have Dinner' },
+  { key: 12, name: 'Read Novel' },
+  { key: 13, name: 'Feed Dog' },
+  { key: 14, name: 'Review Code Again' },
+  { key: 15, name: 'Make Smoothie' }
 ];
 
 export default function CategoryList() {
