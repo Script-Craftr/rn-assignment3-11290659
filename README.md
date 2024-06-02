@@ -16,6 +16,7 @@ This element shows a part of the app where topics are displayed.
 Handles the display of info concerning ongoing tasks, including progress and status.
 
 
-## Screenshot
+## Screenshots
+- ./native-app/screenshots
 
 
