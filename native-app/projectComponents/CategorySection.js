@@ -16,7 +16,7 @@ const renderCategories = ({ item }) => {
     return (
         <View style={styles.itemContainer}>
             <Text style={styles.bigText}>{item.name}</Text>
-            <Text>11 Tasks In Total For Today</Text>
+            <Text>15 Tasks In Total For Today</Text>
             <View style={styles.img}>
                 <Image source={require("../assets/img1.png")} style={styles.imgStyle} resizeMode="contain" />
             </View>

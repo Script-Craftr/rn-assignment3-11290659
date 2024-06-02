@@ -4,8 +4,8 @@ export default function App() {
   return (
     <View style={styles.frameContainer}>
         <View>
-            <Text style={styles.bigText}>Hello , Devs</Text>
-            <Text>11 tasks today</Text>
+            <Text style={styles.bigText}>Good Day</Text>
+            <Text>15 tasks today</Text>
         </View>
         <View style={styles.imgStyles}>
             <Image source={require("../assets/person.png")}/>
